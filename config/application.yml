@@ -1,8 +1,8 @@
 defaults: &defaults
   event:
     name: "eurucamp 2013"
-    start_time: 2013-08-10 00:00:00
-    end_time: 2013-08-19 00:00:00
+    start_time: 2014-05-28 00:00:00
+    end_time: 2014-05-28 23:59:00
   host: "activities.eurucamp.org"
   mailers:
     from: "activities@eurucamp.org"
@@ -12,7 +12,7 @@ defaults: &defaults
       - "pietia@appgrinder.pl"
       - "florian@polarblau.com"
   seo:
-    title: "eurucamp Activities"
+    title: "elasticsearch hackday projects"
     author: "eurucamp team"
     description: "List of companion events."
 

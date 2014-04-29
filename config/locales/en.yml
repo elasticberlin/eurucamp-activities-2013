@@ -15,7 +15,7 @@ en:
 
   user_nav:
     back_home:
-      label: Back to eurucamp activities
+      label: Back to elasticsearch hacks
       title: Go back to front page
     account:
       label: My Account
@@ -52,26 +52,26 @@ en:
       today: Today
       all: All
       owner: Created by me
-      participant: My activities
+      participant: My projects
       submit: Filter
     new:
-      label: Create an activity
-      title: Create a new activity
+      label: Create a project
+      title: Create a new project
     search:
-      placeholder: Search for an activity
+      placeholder: Search for a project
       clear: Clear
     join:
       label: Join
       title: Sign-up as participant
     edit:
       label: Edit
-      title: Edit the activity details
+      title: Edit the project details
     leave:
       label: Cancel
       title: Cancel your participation
     more_info:
       label: More info
-      label_long: View activity details
+      label_long: View project details
       title: Learn more about this activity
     anytime: Anytime
     time_and_date: "Time & Date"
@@ -98,19 +98,19 @@ en:
         not_supported_protocol: "protocol not supported ;)"
 
   new_activity:
-    title: Organize an activity
-    notice: Your activity has been created!
-    error: Activity could not be saved. Please check your input.
+    title: Organize a project
+    notice: Your project has been created!
+    error: Project could not be saved. Please check your input.
 
   edit_activity:
-    title: Edit your activity
-    notice: Your activity has been updated!
+    title: Edit your project
+    notice: Your project has been updated!
     error: Your changes could not be saved. Please check your input.
 
   activity_form:
     markdown_hint: You can use Markdown here
     name:
-      label: Give your activity a name
+      label: Give your project a name
     description:
       label: Description
       hint: "Background information, links, etc."
@@ -136,5 +136,5 @@ en:
       label: Policy
       title: Policy and Code of Conduct
     eurucamp:
-      label: eurucamp.org
-      title: Head over to the main site
+      label: eurucamp
+      title: This software was created with <3 by the team of eurucamp
