@@ -1,16 +1,17 @@
 defaults: &defaults
   event:
-    name: "eurucamp 2013"
-    start_time: 2014-05-28 00:00:00
-    end_time: 2014-05-28 23:59:00
-  host: "activities.eurucamp.org"
+    name: "elasticberlin Hackfest 2014"
+    single_day: true
+    start_time: 2014-05-28 09:00:00
+    end_time: 2014-05-28 18:00:00
+  host: "projects.elastic.berlin"
   mailers:
-    from: "activities@eurucamp.org"
+    from: "projects@elastic.berlin"
   errors:
-    from: "exception@eurucamp.org"
+    from: "exception@elastic.berlin"
     to:
-      - "pietia@appgrinder.pl"
-      - "florian@polarblau.com"
+      - "florian.gilcher@asquera.de"
+      - "felix.gilcher@asquera.de"
   seo:
     title: "elasticsearch hackday projects"
     author: "eurucamp team"
