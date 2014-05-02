@@ -31,6 +31,8 @@ module ActivityFormHelper
         }
       }
 
+      attributes[:class] << " single-day" if current_event.single_day
+
       if model.errors[field].any?
         attributes[:class] << ' validation-error'
       end

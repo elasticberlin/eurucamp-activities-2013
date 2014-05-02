@@ -1,14 +1,15 @@
 class Event
   attr_writer :activity_source, :all_activities_fetcher, :recent_activities_fetcher # DI
-  attr_reader :name, :start_time, :end_time
+  attr_reader :name, :start_time, :end_time, :single_day
 
   def initialize(
       name       = Settings.event.name,
       start_time = Settings.event.start_time,
       end_time   = Settings.event.end_time,
+      single_day = Settings.event.single_day,
       recent_activities_fetcher = ->{ Activity.recent },
       all_activities_fetcher    = ->{ Activity.all_activities })
-    @name, @start_time, @end_time = name, start_time, end_time
+    @name, @start_time, @end_time, @single_day = name, start_time, end_time, single_day
     @recent_activities_fetcher = recent_activities_fetcher
     @all_activities_fetcher = all_activities_fetcher
   end
